@@ -7,6 +7,9 @@
       "dependsOn": ["^build"],
       "env": ["NEXT_PUBLIC_API_HOST"]
     },
+    "build:docker": {
+      "cache": false
+    },
     "test": {
       "outputs": ["coverage/**"],
       "dependsOn": []
